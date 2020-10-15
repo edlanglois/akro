@@ -2,10 +2,10 @@ import pickle
 import unittest
 
 import numpy as np
-import tensorflow as tf
 
 from akro import Box
 from akro import Discrete
+from akro import tf
 from akro import theano
 from akro import Tuple
 from akro.requires import requires_tf, requires_theano

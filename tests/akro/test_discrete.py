@@ -3,9 +3,9 @@ import unittest
 
 import numpy as np
 import pytest
-import tensorflow as tf
 
 from akro import Discrete
+from akro import tf
 from akro import theano
 from akro.requires import requires_tf, requires_theano
 
